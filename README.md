@@ -4,7 +4,7 @@ this reposytory contains a shell script that automatically installs ros,the tfli
 ```
 git clone https://github.com/SnitchTr/setup_snitch
 ```
-2. Enter the directory and run the shell script
+2. Enter the directory and run the shell script:
 ```
 cd setup_snitch
 bash setup.sh
