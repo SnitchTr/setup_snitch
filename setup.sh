@@ -10,6 +10,7 @@ sudo apt update
 sudo apt install ros-melodic-desktop-full -y
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
+source /opt/ros/melodic/setup.bash
 sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential -y
 sudo apt install python3-pip python3-yaml -y
 sudo pip3 install rospkg catkin_pkg
@@ -17,7 +18,7 @@ sudo apt-get install python-catkin-tools python3-dev python3-numpy -y
 sudo apt install python-rosdep -y
 sudo rosdep init 
 rosdep update
-sudo apt install ros-melodic-rtabmap ros-melodic-rtabmap-ros ros-melodic-navigation ros-melodic-rosserial ros-melodic-rosserial-arduino ros-melodic-imu-filter-madgwick ros-melodic-librealsense2-camera ros-melodic-librealsense2-description -y
+sudo apt install ros-melodic-rtabmap ros-melodic-rtabmap-ros ros-melodic-navigation ros-melodic-rosserial ros-melodic-rosserial-arduino ros-melodic-imu-filter-madgwick ros-melodic-realsense2-camera ros-melodic-realsense2-description -y
 mkdir -p ~/catkin_build_ws/src
 cd ~/catkin_build
 catkin config -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
