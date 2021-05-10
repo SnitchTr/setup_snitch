@@ -23,6 +23,7 @@ sudo apt-get install librealsense2-dbg -y
 sudo apt install ros-melodic-rtabmap ros-melodic-rtabmap-ros ros-melodic-rosserial ros-melodic-rosserial-arduino ros-melodic-imu-filter-madgwick ros-melodic-librealsense2 -y
 mkdir ~/catkin_build_ws
 mkdir ~/catkin_build_ws/src
+cd ~/catkin_build
 catkin config -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
 catkin config --rosinstall
 cd ~/catkin_build_ws/src
