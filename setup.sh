@@ -12,7 +12,8 @@ sudo apt install python3-pip python3-yaml -y
 sudo pip3 install rospkg catkin_pkg
 sudo apt-get install python-catkin-tools python3-dev python3-numpy -y
 sudo apt install python-rosdep -y
-sudo rosdep init rosdep update
+sudo rosdep init 
+rosdep update
 sudo apt-key adv --keyserver keys.gnupg.net --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
 sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo bionic main" -u
 sudo apt-get install librealsense2-dkms -y
