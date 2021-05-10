@@ -17,7 +17,7 @@ sudo apt-get install python-catkin-tools python3-dev python3-numpy -y
 sudo apt install python-rosdep -y
 sudo rosdep init 
 rosdep update
-sudo apt install ros-melodic-rtabmap ros-melodic-rtabmap-ros ros-melodic-rosserial ros-melodic-rosserial-arduino ros-melodic-imu-filter-madgwick ros-melodic-librealsense2 -y
+sudo apt install ros-melodic-rtabmap ros-melodic-rtabmap-ros ros-melodic-navigation ros-melodic-rosserial ros-melodic-rosserial-arduino ros-melodic-imu-filter-madgwick ros-melodic-librealsense2-camera ros-melodic-librealsense2-description -y
 mkdir -p ~/catkin_build_ws/src
 cd ~/catkin_build
 catkin config -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
