@@ -38,5 +38,8 @@ cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
 cd ~/
-sudo pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime
+echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install python3-tflite-runtime
 sudo apt-get install python3-opencv -y
