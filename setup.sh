@@ -1,3 +1,5 @@
+mv launch_camera.sh ~/
+mv human_detector_launch.sh ~/
 cd ~/
 sudo apt update
 sudo apt upgrade -y
