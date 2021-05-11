@@ -1,4 +1,4 @@
-cd ~/catkin_workspace
+cd ~/catkin_build_ws
 catkin build cv_bridge
 source install/setup.bash --extend
 cd ~/
