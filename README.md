@@ -1,5 +1,5 @@
 # Setting up the snitch platform
-This reposytory contains a shell script that automatically installs ros,the tflite interpreter and python opencv and builds all neeaded packages for runing the snitch platform. This only works for cpu computers running [Ubuntu 18.04.5 lts Desktop image](https://releases.ubuntu.com/18.04/ubuntu-18.04.5-desktop-amd64.iso). **The process requires an internet connection.**
+This reposytory contains a shell script that automatically installs ros,the tflite interpreter and python opencv and builds all neeaded packages for runing the snitch platform. This only works for CPU computers running [Ubuntu 18.04.5 lts Desktop image](https://releases.ubuntu.com/18.04/ubuntu-18.04.5-desktop-amd64.iso). **The process requires an internet connection.**
 1. Install the git command:
 ```
 sudo apt install git
